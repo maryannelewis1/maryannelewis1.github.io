@@ -1,14 +1,22 @@
-@charset "utf-8";
-/* CSS Document */
-
-body{background-color:#0A0060;
-background-image: url("images/pexels-photo-356392.jpeg");
-background-size:cover;
-color: #fff;}
-#slogan {
-    font-style: italic;
-	text-align:center;
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	/* base typography - unit 4 assignment */
 }
-#myHeader {
-    text-align: center;
+section {
+	padding:4em 0;
+}
+.columns {
+	width:25%;
+	padding: 1em;
+}
+.columns img {
+	width:100%;
+}
+#intro {
+	background:url(../images/pexels-photo-356392.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size:2em;
+	height:90vh;
+	padding:12em 0 0 4em;
 }
