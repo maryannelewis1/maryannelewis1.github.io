@@ -8,6 +8,8 @@ section {
 .columns {
 	width:25%;
 	padding: 1em;
+	float: left;
+	
 }
 .columns img {
 	width:100%;
