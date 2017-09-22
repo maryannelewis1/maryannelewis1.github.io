@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	/* base typography - unit 4 assignment */
@@ -15,11 +18,15 @@ section {
 	
 	
 }
+h1 {
+	font-family:'Gloria Hallelujah', cursive;
+}
+	
 .columns img {
 	width:100%;
 }
 #intro {
-	background:url(../images/pexels-photo-356392.jpeg);
+	background:url(file:///C|/Users/User/Desktop/generalassembly/maryannelewis1.github.io/unit_3/images/pexels-photo-356392.jpeg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	font-size:2em;
