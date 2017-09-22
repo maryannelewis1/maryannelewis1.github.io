@@ -12,8 +12,9 @@ section {
 	width:25%;
 	padding: 1em;
 	float: left;
-	background-color: #061182;
+	background-color: #fff;
 	height:400px;
+	padding-bottom:15px;
 	
 }
 h1 {
@@ -34,4 +35,8 @@ p {font-family: 'IM Fell Great Primer', serif;
 }
 #slogan {
 font-style:italic;
+}
+footer{
+	    text-align: center;
+		background-color: lime;
 }
