@@ -12,11 +12,9 @@ section {
 	width:25%;
 	padding: 1em;
 	float: left;
-	background-color: #fff;
 	height:400px;
-	padding-bottom:15px;
-	
-}
+	padding-bottom:30px;
+	}
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
 }
