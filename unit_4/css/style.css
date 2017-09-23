@@ -34,7 +34,8 @@ p {font-family: 'IM Fell Great Primer', serif;
 }
 #paragraphintro{
 	text-align: center;
-	margin: 5em;
+	margin: 100px;
+	color:#7f3300;
 }
 #slogan {
 font-style:italic;
