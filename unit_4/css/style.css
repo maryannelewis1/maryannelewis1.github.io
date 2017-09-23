@@ -35,6 +35,7 @@ p {font-family: 'IM Fell Great Primer', serif;
 font-style:italic;
 }
 footer{
+	height:400px;
 	    clear: both;	
 	    text-align: center;
 	    background-color: lime;
