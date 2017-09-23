@@ -9,11 +9,12 @@ section {
 	padding:4em 0;
 }
 .columns {
-	width:25%;
+	width:20%;
 	padding: 1em;
 	float: left;
 	padding-bottom:30px;
 	background-color: white;
+	margin: 1em;
 	}
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
@@ -31,8 +32,13 @@ p {font-family: 'IM Fell Great Primer', serif;
 	height:90vh;
 	padding:10em 0 0 4em;
 }
+#paragraphintro{
+	text-align: center;
+}
 #slogan {
 font-style:italic;
+}
+#list{text-align: center;
 }
 footer{
 	height:400px;
