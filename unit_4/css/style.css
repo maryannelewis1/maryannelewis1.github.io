@@ -50,4 +50,22 @@ footer{
 	    text-align: center;
 	    background-color: lime;
         width: 100%;
+		padding-top: 40px;
+}
+ul{text-align: center;}
+li{display:inline-block;
+}
+.container {
+    width: 600px;
+}
+
+.list-centered {
+    margin: 0 auto;
+    width: -webkit-fit-content;
+       width: -moz-fit-content;
+            width: fit-content;
+}
+
+.list-centered li {
+    float: left;
 }
