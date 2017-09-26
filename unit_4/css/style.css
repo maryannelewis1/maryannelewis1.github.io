@@ -37,6 +37,7 @@ p {font-family: 'IM Fell Great Primer', serif;
 	text-align:center;
 	margin: 50px;
 	color: #7f3300;
+
 	font-size:24px;
 }
 #slogan {
@@ -52,20 +53,15 @@ footer{
         width: 100%;
 		padding-top: 80px;
 }
-ul{text-align: center;}
-li{display:inline-block;
+ul{
+border:2px solid red;
+display:inline-block;
+}
+li{
+  display:inline;
+  padding:0 30%; /* try adjusting the side % to give a feel of center aligned.*/
 }
 .container {
     width: 600px;
 }
 
-.list-centered {
-    margin: 0 auto;
-    width: -webkit-fit-content;
-       width: -moz-fit-content;
-            width: fit-content;
-}
-
-.list-centered li {
-    float: left;
-}
