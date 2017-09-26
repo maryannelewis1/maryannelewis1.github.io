@@ -55,4 +55,13 @@ footer{
 .container {
     width: 600px;
 }
+ul{width:300px;
+ margin: 0 auto;
+ font-family: 'IM Fell Great Primer', serif;
+}
+
+li{
+  margin: 0 auto;
+  font-family: 'IM Fell Great Primer', serif;
+}
 
