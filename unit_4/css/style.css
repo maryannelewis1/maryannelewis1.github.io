@@ -43,8 +43,6 @@ p {font-family: 'IM Fell Great Primer', serif;
 #slogan {
 font-style:italic;
 }
-#list{text-align: center;
-}
 footer{
 	height:400px;
 	    clear: both;	
@@ -53,14 +51,7 @@ footer{
         width: 100%;
 		padding-top: 80px;
 }
-ul{
-border:2px solid red;
-display:inline-block;
-}
-li{
-  display:inline;
-  padding:0 30%; /* try adjusting the side % to give a feel of center aligned.*/
-}
+
 .container {
     width: 600px;
 }
