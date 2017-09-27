@@ -17,6 +17,19 @@ section {
 	background-color: white;
 	margin: 1em;
 	}
+	.blackie
+	{width: 33%;
+	padding: 1 em;
+	background-color: black;
+	color: white;
+	float: left; 
+	height:600px;
+	text-align: center;
+	}
+
+	section.ex1:hover, section.ex1:active{background:green; height:600px;text-align:center;} 
+	
+	
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
 }
@@ -61,6 +74,8 @@ footer{
 ul{width:300px;
  margin: 0 auto;
  font-family: 'IM Fell Great Primer', serif;
+ clear:both;
+ padding-top:50px;
 }
 
 li{
