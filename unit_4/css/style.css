@@ -27,7 +27,7 @@ section {
 	text-align: center;
 	}
 
-	section.ex1:hover, section.ex1:active{background:green; height:400px;text-align:center; padding 1 em;} 
+	section.ex1:hover, section.ex1:active{background:green; height:200px;text-align:center; padding 1 em;} 
 	
 	
 	
