@@ -3,39 +3,37 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color:#cc7514;
+	/* background-color:#cc7514; */
 	/* base typography - unit 4 assignment */
 }
 section {
 	padding:4em 0;
 }
 .columns {
-	width:20%; 
+	width: 24%;
 	padding: 1em;
 	float: left;
 	padding-bottom:30px;
 	background-color: white;
-	margin: 1em;
+	margin: .5%;
 	}
 	.blackie
-	{width: 33%;
-	padding: 1 em;
+	{
 	background-color: black;
-	color: white;
-	float: left; 
-	height:600px;
+	color: rgba(255,255,255,0);
 	text-align: center;
+	overflow: hidden;
+	padding: 0;
 	}
 
-	section.ex1:hover, section.ex1:active{background:green; height:200px;text-align:center; padding 1 em;} 
+	section.ex1:hover, section.ex1:active{background:green;padding 1 em;color: rgba(255,255,255,1);} 
 	
 	
 	
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
 }
-p {font-family: 'IM Fell Great Primer', serif;
-}
+p {font-family: 'IM Fell Great Primer', serif;}
 .columns img {
 	width:100%;
 }
@@ -48,39 +46,48 @@ p {font-family: 'IM Fell Great Primer', serif;
 	padding:10em 0 0 4em;
 }
 #bbcolors{
-	text-align:center;
-	margin: 50px;
+	/* text-align:center; */
 	color: #7f3300;
-
 	font-size:24px;
+	background: orange;
 }
-#bcolor{ color: black;
+#bcolor{
+          color: black;
           font-size:24px;
+          width: 26em;
+          margin: auto;
 }
-#slogan {
-font-style:italic;
-}
+#slogan {font-style:italic;}
 footer{
-	height:400px;
-	    clear: both;	
-	    text-align: center;
-	    background-color: #297514;
-        width: 100%;
-		padding-top: 80px;
+	clear: both;
+	text-align: center;
+	background-color: #297514;
+	width: 100%;
+	padding: 80px 0;
 }
 
 .container {
     width: 600px;
 }
-ul{width:300px;
- margin: 0 auto;
+ul{
+ /* width:300px; */
+ /* margin: 0 auto; */
  font-family: 'IM Fell Great Primer', serif;
- clear:both;
- padding-top:50px;
+ /* clear:both; */
+ /* padding-top:50px; */
 }
 
 li{
   margin: 0 auto;
   font-family: 'IM Fell Great Primer', serif;
 }
+.ex1 {
+    float: left;
+    width: 33.33%;
+    padding: 10em 0;
+}
 
+#bbcolors p {
+    width: 26em;
+    margin: auto;
+}
