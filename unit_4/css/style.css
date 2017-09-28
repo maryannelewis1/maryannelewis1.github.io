@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+@import url('https://fonts.googleapis.com/css?family=Poller+One');
 
-* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	/* background-color:#cc7514; */
 	/* base typography - unit 4 assignment */
@@ -57,7 +57,7 @@ p {font-family: 'IM Fell Great Primer', serif;}
           width: 26em;
           margin: auto;
 }
-#slogan {font-style:italic;}
+#slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
 footer{
 	clear: both;
 	text-align: center;
@@ -85,6 +85,7 @@ li{
     float: left;
     width: 33.33%;
     padding: 10em 0;
+	
 }
 
 #bbcolors p {
