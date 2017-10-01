@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+@import url('https://fonts.googleapis.com/css?family=Poller+One');
+
+body {
+	/* background-color:#cc7514; */
+	/* base typography - unit 4 assignment */
+}
+section {
+	padding:4em 0;
+}
+.columns {
+	width: 24%;
+	margin:.5%;
+	float: left;
+	padding-bottom:30px;
+	background-color: white;
+	
+	}
+	.blackie
+	{
+	background-color: black;
+	color: #000;
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+	}
+
+	section.ex1:hover, section.ex1:active{background:green;padding 1 em;color: rgba(255,255,255,1);} 
+	
+	
+	
+h1 {
+	font-family:'Gloria Hallelujah', cursive;
+}
+p {font-family: 'IM Fell Great Primer', serif;}
+.columns img {
+	width:100%;
+}
+#intro {
+	background:url(../images/pexels-photo-356392.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size:2em;
+	height:90vh;
+	padding:10em 0 0 4em;
+}
+#bbcolors{
+	/* text-align:center; */
+	color: #7f3300;
+	font-size:24px;
+	background: orange;
+	
+}
+#seethrough{	color: rgba(255,255,255,1);
+}
+#bcolor{
+          color: black;
+          font-size:24px;
+          width: 26em;
+          margin: auto;
+}
+#slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
+footer{
+	clear: both;
+	text-align: center;
+	background-color: #297514;
+	width: 100%;
+	padding: 80px 0;
+}
+
+.container {
+    width: 600px;
+}
+ul{
+ /* width:300px; */
+ /* margin: 0 auto; */
+ font-family: 'IM Fell Great Primer', serif;
+ /* clear:both; */
+ /* padding-top:50px; */
+}
+
+li{
+  margin: 0 auto;
+  font-family: 'IM Fell Great Primer', serif;
+}
+.ex1 {
+    float: left;
+    width: 33.33%;
+    padding: 10em 0;
+	
+}
+
+#bbcolors p {
+    width: 26em;
+    margin: auto;
+}
+header {background-color:#FFED74;}
+nav { background-color:#E8C66A;}
+aside{background-color:#FFC675;}
+article{background-color:#E89C6C;}
+footer{background-color: #FF957E;}
+div{background-color:#FFE2B8;}
+section{background-color:#ffE2B8;}
