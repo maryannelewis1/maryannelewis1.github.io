@@ -39,6 +39,11 @@ p {font-family: 'IM Fell Great Primer', serif;}
 .columns img {
 	width:100%;
 }
+nav{text-align:center;
+     color:white;
+	 text-decoration:none;
+	
+}
 #intro {
 	background:url(../images/pexels-photo-356392.jpeg);
 	background-size:cover;
