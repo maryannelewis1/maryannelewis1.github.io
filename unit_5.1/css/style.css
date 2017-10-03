@@ -54,8 +54,9 @@ p {font-family: 'IM Fell Great Primer', serif;}
 	background: orange;
 	float:right;
 	padding:2px;
-	width:600px;
+	width:800px;
 	height:400px;
+	padding:10px;
 }
 
 }
@@ -63,6 +64,7 @@ p {font-family: 'IM Fell Great Primer', serif;}
 }
 #acolor{float:left;
         background: purple;
+		color:white;
 }
 #bcolor{
           color: black;
