@@ -7,11 +7,7 @@ body {
 	/* background-color:#cc7514; */
 	/* base typography - unit 4 assignment */
 }
-wrapper{ box-sizing:border-box;
-          margin:0;
-		  padding:0;
-}
-
+* { margin:0; padding:0; box-sizing:border-box; }
 .columns {
 	width: 24%;
 	margin:.5%;
@@ -66,14 +62,12 @@ nav a {width:18%;
 		
 	
 }
-#bcolor{
+#bcolor{margin:auto;
           color: black;
           font-size:24px;
-          width: 50%
           clear:both;
-		 
-}
-#bcolor p{margin:auto}
+			}
+
 #slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
 footer{
 	clear: both;
