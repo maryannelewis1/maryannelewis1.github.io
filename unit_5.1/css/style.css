@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
 @import url('https://fonts.googleapis.com/css?family=Poller+One');
 
+.anew{width:50%}
 body {
 	/* background-color:#cc7514; */
 	/* base typography - unit 4 assignment */
@@ -74,12 +75,13 @@ nav a {width:18%;
 #acolor{float:left;
         background: purple;
 		color:white;
-		width: 50%;
+		width:40%;
+	
 }
 #bcolor{
           color: black;
           font-size:24px;
-          width: 50%;
+          width: 40%;
           margin: auto;
 		  clear:both;
 }
