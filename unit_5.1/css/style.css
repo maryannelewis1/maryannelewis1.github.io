@@ -74,11 +74,12 @@ nav a {width:18%;
 #acolor{float:left;
         background: purple;
 		color:white;
+		width: 50%;
 }
 #bcolor{
           color: black;
           font-size:24px;
-          width: 26em;
+          width: 50%;
           margin: auto;
 		  clear:both;
 }
