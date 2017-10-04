@@ -78,15 +78,16 @@ nav a {width:18%;
 #acolor{float:left;
         background: purple;
 		color:white;
-		width:50%;
+		width:49%;
+		margin:.5%;
 	
 }
 #bcolor{
           color: black;
           font-size:24px;
-          width: 50%;
+          width: 49%;
           clear:both;
-		  margin:auto;
+		  margin:.5%;
 }
 #bcolor p{margin: auto}
 #slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
