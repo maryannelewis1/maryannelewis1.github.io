@@ -44,6 +44,10 @@ nav{text-align:center;
 	 text-decoration:none;
 	
 }
+nav a {width: 20%;
+        color: #4b4b4b;
+		display: inline-block;
+		}
 #intro {
 	background:url(../images/pexels-photo-356392.jpeg);
 	background-size:cover;
