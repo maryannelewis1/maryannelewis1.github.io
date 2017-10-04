@@ -62,18 +62,18 @@ nav a {width:18%;
 #acolor{float:left;
         background: purple;
 		color:white;
-		width:49%;
-		margin:.5%;
+		width:50%;
+		
 	
 }
 #bcolor{
           color: black;
           font-size:24px;
-          width: 49%;
+          width: 50%
           clear:both;
-		  margin:.5%;
+		 
 }
-#bcolor p{margin: auto}
+#bcolor p{margin:auto}
 #slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
 footer{
 	clear: both;
