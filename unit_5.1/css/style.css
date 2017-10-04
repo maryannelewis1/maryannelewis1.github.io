@@ -85,9 +85,10 @@ nav a {width:18%;
           color: black;
           font-size:24px;
           width: 50%;
-          margin: auto;
-		  clear:both;
+          clear:both;
+		  margin:auto;
 }
+#bcolor p{margin: auto}
 #slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
 footer{
 	clear: both;
