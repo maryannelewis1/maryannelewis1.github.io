@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
 @import url('https://fonts.googleapis.com/css?family=Poller+One');
 
-.anew{width:50%}
+
 body {
 	/* background-color:#cc7514; */
 	/* base typography - unit 4 assignment */
@@ -12,9 +12,6 @@ wrapper{ box-sizing:border-box;
 		  padding:0;
 }
 
-section {
-	padding:4em 0;
-}
 .columns {
 	width: 24%;
 	margin:.5%;
@@ -23,19 +20,7 @@ section {
 	background-color: white;
 	
 	}
-	.blackie
-	{
-	background-color: black;
-	color: #000;
-	text-align: center;
-	overflow: hidden;
-	padding: 0;
-	
-	}
-
-	section.ex1:hover, section.ex1:active{background:green;padding 1 em;color: rgba(255,255,255,1); }
-	
-	
+		
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
 }
@@ -66,10 +51,9 @@ nav a {width:18%;
 	font-size:24px;
 	background: orange;
 	float:right;
-	padding:2px;
 	width:50%;
 	height:400px;
-	padding:10px;
+
 }
 
 }
