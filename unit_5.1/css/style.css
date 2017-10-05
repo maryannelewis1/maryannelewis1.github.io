@@ -13,9 +13,8 @@ body {
 	margin:.5%;
 	float: left;
 	padding-bottom:30px;
-	background-color: white;
-	
-	}
+	background-color:#A9FF76;
+		}
 		
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
@@ -35,7 +34,7 @@ nav{text-align:center;
 		font-size:24px;
 		font-weight:600;
 		} **/
-nav a:hover {
+nav a: link, hover {
     color: hotpink;
 	background-color:lightgreen;
 	
