@@ -33,8 +33,13 @@ nav a {width:18%;
 		display: block;
 		font-size:24px;
 		font-weight:600;
-		float:left
+		float:left;
+		background-color:#428B17;
 		} 
+nav a hover:{
+	    display:block;
+		color:hotpink;
+}
 
 /**nav a {
     background-color: #61CC21;
