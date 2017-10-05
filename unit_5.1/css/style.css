@@ -32,6 +32,8 @@ nav{text-align:center;
 nav a {width:18%;
         color: #4b4b4b;
 		display: inline-block;
+		font-size:24px;
+		font-weight:600;
 		}
 #intro {
 	background:url(../images/pexels-photo-356392.jpeg);
