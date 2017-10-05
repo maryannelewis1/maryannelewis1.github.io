@@ -29,12 +29,26 @@ nav{text-align:center;
 	 text-decoration:none;
 	
 }
-nav a {width:18%;
+/**nav a {width:18%;
         color: #4b4b4b;
 		display: inline-block;
 		font-size:24px;
 		font-weight:600;
-		}
+		} **/
+nav a:hover {
+    color: hotpink;
+	background-color:lightgreen;
+	
+}
+nav a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width:19%;
+}
 #intro {
 	background:url(../images/pexels-photo-356392.jpeg);
 	background-size:cover;
