@@ -27,6 +27,12 @@ p {font-family: 'IM Fell Great Primer', serif;}
 nav{text-align:center;
      color:white;
 	 text-decoration:none;
+	 list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+	 
 	
 }
 /**nav a {width:18%;
@@ -35,20 +41,30 @@ nav{text-align:center;
 		font-size:24px;
 		font-weight:600;
 		} **/
-nav a: link, hover {
-    color: hotpink;
-	background-color:#79FF2A;
-	
-}
-nav a:link, a:visited {
+
+nav a:, a:visited {
     background-color: #61CC21;
     color: white;
     padding:13px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	width:19%;
+	width:19%;}
+	
+//**	nav a  hover:{
+	 display: block;
+    color: hotpink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;**/
 }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
 #intro {
 	background:url(../images/pexels-photo-356392.jpeg);
 	background-size:cover;
