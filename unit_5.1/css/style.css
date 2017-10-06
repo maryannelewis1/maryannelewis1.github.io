@@ -25,6 +25,7 @@ a.ex1:hover, a.ex1:active {color:#61CC21;}
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
 }
+h3{text-align:center}
 p {font-family: 'IM Fell Great Primer', serif;}
 .columns img {
 	width:100%;
@@ -32,6 +33,7 @@ p {font-family: 'IM Fell Great Primer', serif;}
 nav{text-align:center;
      color:white;
 	 text-decoration:none;
+	 background-color:#1912B2;
 }
 /**nav a {width:20%;
         color: #4b4b4b;
@@ -69,7 +71,7 @@ li a:hover {
 }
 
 nav a:link, nav a:visited {
-    background-color: lightgreen;
+background-color: #1912B2;
     color: white;
     padding: 14px 25px;
     text-align: center; 
@@ -79,7 +81,7 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover, nav a:active {
-    background-color: green;
+    background-color: 0B00FF;
 }
 
 #intro {
@@ -135,11 +137,9 @@ footer a{color:blue;}
           clear:both;
 		  width:100%;
 		  padding:2em;
-		  background-color: #61CC21;
+		  background-color: #FF5D00;
 		  height:600px;
-		  padding-top:15%;
-		  padding-left:15%;
-			}
+		  			}
 
 #slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
 footer{
