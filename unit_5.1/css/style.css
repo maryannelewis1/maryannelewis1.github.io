@@ -102,10 +102,14 @@ nav a:hover, nav a:active {
 #acolor{float:left;
         background: #428B17;
 		color:white;
-		width:50%;
+		width:50%;}
+
+#acolor img{width: 50%;
+            margin: auto;
+}
 		
 	
-}
+
 #bcolor{margin:auto;
           color: black;
           font-size:24px;
