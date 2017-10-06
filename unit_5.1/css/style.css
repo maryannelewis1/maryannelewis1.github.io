@@ -71,8 +71,8 @@ li a:hover {
 }
 
 nav a:link, nav a:visited {
-background-color: #1912B2;
-    color: white;
+background-color: #efefef;
+    color: #a9a9a9;
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
@@ -81,7 +81,7 @@ background-color: #1912B2;
 }
 
 nav a:hover, nav a:active {
-    background-color: #0B00FF;
+    background-color: #caebf2;
 }
 
 #intro {
@@ -96,7 +96,7 @@ nav a:hover, nav a:active {
 	/* text-align:center; */
 	color: #7f3300;
 	font-size:24px;
-	background: #27B209;
+	background: #b9b9b9;
 	float:right;
 	width:50%;
 	height:600px;
@@ -115,7 +115,7 @@ footer a{color:blue;}
 #seethrough{	color: rgba(255,255,255,1);
 }
 #acolor{float:left;
-        background: #35CC14;
+        background: #b9b9b9;
 		color:white;
 		width:50%;
 		height:600px;
