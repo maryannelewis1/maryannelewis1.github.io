@@ -100,28 +100,30 @@ nav a:hover, nav a:active {
 	height:400px;
 
 }
-footer a{color:red} 
+footer a{color:blue;} 
 
 #anew {color:red;
            width:100%;
 		   text-align:left;
 		   display:inline-block;
 		   margin: 0 auto;}
-div a{text-align:center;
-      width: 25%;
-	    margin: 0 auto;
-	  color:green;
-     
-}
+
+
+
 #seethrough{	color: rgba(255,255,255,1);
 }
 #acolor{float:left;
         background: #428B17;
 		color:white;
-		width:50%;}
+		width:50%;
+		height:600px;
+		padding-top:15%;
+		padding-left:15%;}
+		
 
 #acolor img{width: 50%;
-            margin: auto;
+            margin: 0 auto;
+			border: 10px solid red;
 }
 		
 	
@@ -133,6 +135,7 @@ div a{text-align:center;
 		  width:100%;
 		  padding:2em;
 		  background-color: #61CC21;
+		  height:600px;
 			}
 
 #slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
