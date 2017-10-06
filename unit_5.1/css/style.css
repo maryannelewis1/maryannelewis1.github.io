@@ -97,7 +97,7 @@ nav a:hover, nav a:active {
 	background: #79FF2A;
 	float:right;
 	width:50%;
-	height:400px;
+	height:600px;
 
 }
 footer a{color:blue;} 
@@ -126,7 +126,8 @@ footer a{color:blue;}
 			border: 10px solid red;
 }
 		
-	
+#renew{height:600px;
+}  
 
 #bcolor{margin:auto;
           color: black;
