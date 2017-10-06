@@ -15,7 +15,12 @@ background-color: #A9FF76;
 	float: left;
 	padding-bottom:30px;
 	background-color:#A9FF76;
-		}
+		}'
+.smallcolumns{
+	text-align:left
+	width:24%}
+a.ex1:hover, a.ex1:active {color:#61CC21;}
+}
 		
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
@@ -95,7 +100,18 @@ nav a:hover, nav a:active {
 	height:400px;
 
 }
+footer a{color:red} 
 
+#anew {color:red;
+           width:100%;
+		   text-align:left;
+		   display:inline-block;
+		   margin: 0 auto;}
+div a{text-align:center;
+      width: 25%;
+	    margin: 0 auto;
+	  color:green;
+      display:block;
 }
 #seethrough{	color: rgba(255,255,255,1);
 }
@@ -132,11 +148,14 @@ footer{
     width: 600px;
 }
 ul{
- /* width:300px; */
- /* margin: 0 auto; */
+  width:300px; 
+ margin: 0 auto;
  font-family: 'IM Fell Great Primer', serif;
+
  /* clear:both; */
  /* padding-top:50px; */
+}
+h2{text-align:center
 }
 
 li{
