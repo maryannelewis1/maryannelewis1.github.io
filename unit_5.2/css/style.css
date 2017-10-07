@@ -129,7 +129,8 @@ a {color:black;}
 		padding-left:15%;}
 		
 #review{clear:both;
-         float:left;}
+         float:left;
+		 width:47%}
 
 
 #acolor img{width: 50%;
