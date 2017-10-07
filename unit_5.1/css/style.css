@@ -103,7 +103,8 @@ nav a:hover, nav a:active {
 	padding:15%;
 
 }
-footer a{color:blue;} 
+footer a{color:black;} 
+a {color:black;}
 
 #anew {color:red;
            width:100%;
@@ -117,7 +118,7 @@ footer a{color:blue;}
 }
 #acolor{float:left;
         background: #b9b9b9;
-		color:white;
+		color:#7f3300;
 		width:50%;
 		height:600px;
 		padding-top:15%;
@@ -133,7 +134,7 @@ footer a{color:blue;}
 }  
 
 #bcolor{margin:auto;
-          color: black;
+          color: #7f3300;
           font-size:24px;
           clear:both;
 		  width:100%;
@@ -150,6 +151,7 @@ footer{
 	background-color: #ff3b3f;
 	width: 100%;
 	padding: 80px 0;
+	color: #7f3300;
 }
 
 .container {
