@@ -6,7 +6,7 @@
 body {
 	/* background-color:#cc7514; */
 	/* base typography - unit 4 assignment */
-background-color: #35CC14;	
+background-color: #caebf2;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 .columns {
@@ -147,7 +147,7 @@ footer a{color:blue;}
 footer{
 	clear: both;
 	text-align: center;
-	background-color: #27B209;
+	background-color: #ff3b3f;
 	width: 100%;
 	padding: 80px 0;
 }
