@@ -130,7 +130,8 @@ a {color:black;}
 		
 #review{clear:both;
          float:left;
-		 width:47%}
+		 width:47%;
+		 display:inline;}
 
 
 #acolor img{width: 50%;
