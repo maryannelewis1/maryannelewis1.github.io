@@ -147,6 +147,9 @@ a {color:black;}
 		  padding:15%;
 		  			}
 
+
+a:hover{color:#ff3b3f;}
+
 #slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
 footer{
 	clear: both;
@@ -188,3 +191,4 @@ li{
     margin: auto;
 	
 }
+footer a:hover {color:#caebf2;}
