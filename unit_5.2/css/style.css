@@ -128,7 +128,8 @@ a {color:black;}
 		padding-top:15%;
 		padding-left:15%;}
 		
-#review{clear:both;}
+#review{clear:both;
+         float:left;}
 
 
 #acolor img{width: 50%;
