@@ -10,7 +10,7 @@ background-color: #caebf2;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 .columns {
-	width: 45%;
+	width: 49%;
 	margin:.5%;
 	float: left;
 	padding-bottom:30px;
@@ -131,7 +131,9 @@ a {color:black;}
 #review{clear:both;
          float:left;
 		 width:47%;
-		 display:inline;}
+		 display:inline;
+		 color: #7f3300;
+		 }
 
 
 #acolor img{width: 50%;
