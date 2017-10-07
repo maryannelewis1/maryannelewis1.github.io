@@ -15,6 +15,7 @@ background-color: #caebf2;
 	float: left;
 	padding-bottom:30px;
     color: #7f3300;
+	
 			}
 .smallcolumns{
 	text-align:left
@@ -127,7 +128,7 @@ a {color:black;}
 		padding-top:15%;
 		padding-left:15%;}
 		
-#ccolor{clear:both;}
+#review{clear:both;}
 
 
 #acolor img{width: 50%;
