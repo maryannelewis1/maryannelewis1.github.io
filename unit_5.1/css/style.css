@@ -14,7 +14,7 @@ background-color: #caebf2;
 	margin:.5%;
 	float: left;
 	padding-bottom:30px;
-
+    color: #7f3300;
 		}'
 .smallcolumns{
 	text-align:left
@@ -153,7 +153,7 @@ footer{
 	padding: 80px 0;
 	color: #7f3300;
 }
-
+a: hover{#ff3b3f;}
 .container {
     width: 600px;
 }
