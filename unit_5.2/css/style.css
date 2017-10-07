@@ -10,7 +10,7 @@ background-color: #caebf2;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 .columns {
-	width: 48%;
+	width: 47%;
 	margin:.5%;
 	float: left;
 	padding-bottom:30px;
