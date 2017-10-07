@@ -96,10 +96,11 @@ nav a:hover, nav a:active {
 	/* text-align:center; */
 	color: #7f3300;
 	font-size:24px;
-	background: #b9b9b9;
+	background: #caebf2;
 	float:right;
 	width:50%;
 	height:600px;
+	padding:15%;
 
 }
 footer a{color:blue;} 
