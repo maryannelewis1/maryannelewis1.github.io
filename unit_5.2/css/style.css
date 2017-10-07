@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+@import url('https://fonts.googleapis.com/css?family=Poller+One');
+
+
+body {
+	/* background-color:#cc7514; */
+	/* base typography - unit 4 assignment */
+background-color: #caebf2;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+.columns {
+	width: 48%;
+	margin:.5%;
+	float: left;
+	padding-bottom:30px;
+    color: #7f3300;
+		}'
+.smallcolumns{
+	text-align:left
+	width:24%}
+a.ex1:hover, a.ex1:active {color:#61CC21;}
+}
+		
+h1 {
+	font-family:'Gloria Hallelujah', cursive;
+}
+h3{text-align:center}
+
+h3:hover {color:#ff3b3f;}
+
+p {font-family: 'IM Fell Great Primer', serif;}
+.columns img {
+	width:100%;
+}
+nav{text-align:center;
+     color:white;
+	 text-decoration:none;
+	 background-color:#1912B2;
+}
+/**nav a {width:20%;
+        color: #4b4b4b;
+		display: block;
+		font-size:24px;
+		font-weight:600;
+		float:left;
+		background-color:#428B17;
+		} 
+//*nav a: hover{
+	    display:block;
+		color:hotpink;
+		background-color:yellow;*//
+}
+
+/**nav a {
+    background-color: #61CC21;
+    color: white;
+    padding:13px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width:19%;}**/
+	
+	/*nav a:  hover{
+	 display: block;
+    color: hotpink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+nav a:link, nav a:visited {
+background-color: #efefef;
+    color: #a9a9a9;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    float: left;
+	width: 20%;
+}
+
+nav a:hover, nav a:active {
+    background-color: #caebf2;
+}
+
+#intro {
+	background:url(../images/pexels-photo-356392.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size:2em;
+	height:90vh;
+	padding:10em 0 0 4em;
+}
+#bbcolors{
+	/* text-align:center; */
+	color: #7f3300;
+	font-size:24px;
+	background: #caebf2;
+	float:right;
+	width:50%;
+	height:600px;
+	padding:15%;
+
+}
+footer a{color:black;} 
+a {color:black;}
+
+#anew {color:red;
+           width:100%;
+		   text-align:left;
+		   display:inline-block;
+		   margin: 0 auto;}
+
+
+
+#seethrough{	color: rgba(255,255,255,1);
+}
+#acolor{float:left;
+        background: #b9b9b9;
+		color:#7f3300;
+		width:50%;
+		height:600px;
+		padding-top:15%;
+		padding-left:15%;}
+		
+
+#acolor img{width: 50%;
+            margin: 0 auto;
+			border: 10px solid red;
+}
+		
+#renew{height:600px;
+}  
+
+#bcolor{margin:auto;
+          color: #7f3300;
+          font-size:24px;
+          clear:both;
+		  width:100%;
+		  padding:2em;
+		  background-color: #efefef;
+		  height:600px;
+		  padding:15%;
+		  			}
+
+
+a:hover{color:#ff3b3f;}
+
+#slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
+footer{
+	clear: both;
+	text-align: center;
+	background-color: #ff3b3f;
+	width: 100%;
+	padding: 80px 0;
+	color: #7f3300;
+}
+a: hover{#ff3b3f;}
+.container {
+    width: 600px;
+}
+ul{
+  width:300px; 
+ margin: 0 auto;
+ font-family: 'IM Fell Great Primer', serif;
+
+ /* clear:both; */
+ /* padding-top:50px; */
+}
+h2{text-align:center
+}
+
+li{
+  margin: 0 auto;
+  font-family: 'IM Fell Great Primer', serif;
+}
+.ex1 {
+	clear: both;
+    float: left;
+    width: 33.33%;
+    padding: 10em 0;
+	
+}
+
+#bbcolors p {
+    width: 26em;
+    margin: auto;
+	
+}
+footer a:hover {color:#caebf2;}
