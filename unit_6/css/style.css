@@ -1,4 +1,4 @@
-g@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
 @import url('https://fonts.googleapis.com/css?family=Poller+One');
 
@@ -38,19 +38,6 @@ nav{text-align:center;
      color:white;
 	 text-decoration:none;
 	 background-color:#1912B2;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-	
-	
-	
 }
 /**nav a {width:20%;
         color: #4b4b4b;
