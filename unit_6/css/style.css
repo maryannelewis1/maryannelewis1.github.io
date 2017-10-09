@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+h@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
 @import url('https://fonts.googleapis.com/css?family=Poller+One');
 
@@ -11,7 +11,8 @@ background-color: #caebf2;
 * { margin:0; padding:0; box-sizing:border-box; }
 .columns {
 	width: 49%;
-	margin:.5%;
+	margin-left: 100px;
+	margin-top: 50px;
 	float: left;
 	padding-bottom:30px;
     color: #7f3300;
@@ -202,26 +203,47 @@ li{
 footer a:hover {color:#caebf2;}
 
 #two_column {
-    background-color: #FFB7CF;
+    background-color: #caebf2;
     border: 1px black solid;
     padding: 20px;
 }
 
 #left {
-    background-color: violet;
+    background-color: #efefef;
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 48%;
+    width: 50%;
+	height: 600px;
+	
 }
-
+#left1 {
+    background-color: #efefef;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 50%;
+	height:600px;
+	
+}
+.smallmargins{margin: auto;}
 #right {
-    background-color: pink;
+    background-color: #b9b9b9;
     border: 1px black solid;
     padding: 20px;
     float: right;   
-    width: 48%;
+    width: 50%;
+	height:600px;
 }
+#right1 {
+    background-color: #b9b9b9;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 50%;
+	height: 600px;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
