@@ -354,7 +354,7 @@ background-color: lightgreen;
     float: NONE;
 	width: 100%;
 	display:block;
-	border: .5em solid black;
+	border: .25em solid black;
 }
 #bcolor {display:none;
 }
