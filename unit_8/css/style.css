@@ -78,7 +78,7 @@ li a:hover {
     background-color: #111;
 }
 
-nav a:link, nav a:visited {
+Nav a:link, nav a:visited {
 background-color: #efefef;
     color: #7f3300;
     padding: 14px 25px;
@@ -180,13 +180,13 @@ a {color:black;}
 
 #bcolor{margin:auto;
           color: #7f3300;
-          font-size:24px;
+          font-size: 2em;
           clear:both;
 		  width:100%;
 		  padding:2em;
 		  background-color: #efefef;
 		  height:600px;
-		  padding:15%;
+		  
 		  			}
 
 
@@ -309,4 +309,57 @@ nav a ul {
 
 nav a:hover ul {
 	display:block;
+}
+@media screen and (min-width: 480px) {
+    body{
+        background-color:lightgreen;
+    }
+}
+@media screen and (max-width: 479px){
+	.columns {
+    width:98%;
+	margin: 0 auto;
+	/*margin-left: 100px;
+	margin-top: 50px;*/
+	display:inline-block;
+	padding:30px;
+    color: #7f3300;
+	vertical-align:top;
+	}
+	main{
+		display:none;
+	}
+	#bbcolors p{
+		 width: 0em;
+    	 margin: auto;
+	    height:;0em;
+	
+	}
+	
+		#intro {
+	background-image:none;
+	font-size:2em;
+	padding:2em 1em 0em 2.5em;
+	background-color: lightblue;
+	height:7em;
+	
+}
+
+Nav a:link, nav a:visited {
+background-color: lightgreen;
+    color: #7f3300;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    float: NONE;
+	width: 100%;
+	display:block;
+	border: .5em solid black;
+}
+#bcolor {display:none;
+}
+#slogan {display:none;
+}
+h1{font-size: 1.5em;
+}
 }
