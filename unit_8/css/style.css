@@ -1,14 +1,18 @@
-h@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
 @import url('https://fonts.googleapis.com/css?family=Poller+One');
-
 
 body {
 	/* background-color:#cc7514; */
 	/* base typography - unit 4 assignment */
-background-color: #caebf2;
+	background-color: #caebf2;
+	font-size: 16px;
 }
-* { margin:0; padding:0; box-sizing:border-box; }
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
 .columns {
 	width:48%;
 	margin: 0 auto;
@@ -18,60 +22,43 @@ background-color: #caebf2;
 	padding:30px;
     color: #7f3300;
 	vertical-align:top;
-	
-			}
+	}
+			
 .smallcolumns{
-	text-align:left
-	width:24%}
-a.ex1:hover, a.ex1:active {color:#61CC21;}
-}
+	text-align:left;
+	width:98%;
+	}
+	
+a.ex1:hover, a.ex1:active {
+	color:#61CC21;
+	}
 		
 h1 {
 	font-family:'Gloria Hallelujah', cursive;
-}
-h3{text-align:center}
+	}
+h3{
+	text-align:center;
+	}
 
-h3:hover {color:#ff3b3f;}
+h3:hover {
+	color:#ff3b3f;
+	}
 
-p {font-family: 'IM Fell Great Primer', serif;}
+p {
+	font-family: 'IM Fell Great Primer', serif;
+	}
+	
 .columns img {
 	width:100%;
 }
-nav{text-align:center;
+
+nav{
+	 text-align:center;
      color:white;
 	 text-decoration:none;
 	 background-color:#1912B2;
 	 overflow: hidden;
 }
-/**nav a {width:20%;
-        color: #4b4b4b;
-		display: block;
-		font-size:24px;
-		font-weight:600;
-		float:left;
-		background-color:#428B17;
-		} 
-//*nav a: hover{
-	    display:block;
-		color:hotpink;
-		background-color:yellow;*//
-}
-
-/**nav a {
-    background-color: #61CC21;
-    color: white;
-    padding:13px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-	width:19%;}**/
-	
-	/*nav a:  hover{
-	 display: block;
-    color: hotpink;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;}
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
@@ -79,7 +66,7 @@ li a:hover {
 }
 
 Nav a:link, nav a:visited {
-background-color: #efefef;
+	background-color: #efefef;
     color: #7f3300;
     padding: 14px 25px;
     text-align: center; 
@@ -101,8 +88,8 @@ nav a:hover, nav a:active {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	}
 	
-}
 .dropdown-content a {
     float: none;
     color: black;
@@ -112,15 +99,15 @@ nav a:hover, nav a:active {
     text-align: left;
 	background:green;
 
-}
+	}
 
 .dropdown-content a:hover {
     background-color: #ddd;
-}
+	}
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
+	}
 
 #intro {
 	background:url(../images/pexels-photo-356392.jpeg);
@@ -129,7 +116,7 @@ nav a:hover, nav a:active {
 	font-size:2em;
 	height:90vh;
 	padding:10em 0 0 4em;
-}
+	}
 #bbcolors{
 	/* text-align:center; */
 	color: #7f3300;
@@ -139,30 +126,37 @@ nav a:hover, nav a:active {
 	width:50%;
 	height:30em;
 	padding:15%;
-
 }
-footer a{color:black;} 
-a {color:black;}
+footer a{
+	color:black;
+	} 
+a {
+	color:black;
+	}
 
 #anew {color:red;
-           width:100%;
-		   text-align:left;
-		   display:inline-block;
-		   margin: 0 auto;}
+       width:100%;
+	   text-align:left;
+	   display:inline-block;
+	   margin: 0 auto;
+	   }
 
-
-
-#seethrough{	color: rgba(255,255,255,1);
-}
-#acolor{float:left;
+#seethrough{
+		color: rgba(255,255,255,1);
+		}
+		
+#acolor{
+		float:left;
         background: #b9b9b9;
 		color:#7f3300;
 		width:50%;
 		height:45em;
 		padding-top:15%;
-		padding-left:15%;}
+		padding-left:15%;
+		}
 		
-#review{clear:both;
+#review{
+		 clear:both;
          float:left;
 		 width:47%;
 		 display:inline;
@@ -170,15 +164,18 @@ a {color:black;}
 		 }
 
 
-#acolor img{width: 50%;
-            margin: 0 auto;
-			border: 10px solid red;
-}
+#acolor img{
+	  	  width: 50%;
+          margin: 0 auto;
+		  border: 10px solid red;
+			}
 		
-#renew{height:600px;
-}  
+#renew{
+		height:600px;
+			}  
 
-#bcolor{margin:auto;
+#bcolor{
+		  margin:auto;
           color: #7f3300;
           font-size: 2em;
           clear:both;
@@ -186,99 +183,74 @@ a {color:black;}
 		  padding:2em;
 		  background-color: #efefef;
 		  height:600px;
-		  
-		  			}
+ 			}
 
 
-a:hover{color:#ff3b3f;}
+a:hover {
+	     color:#ff3b3f;
+		 }
 
-#slogan {font-style:italic;font-family: 'Poller One',cursive; font-size:24px}
+#slogan {
+		font-style:italic;
+		font-family: 'Poller One',cursive;
+		font-size:24px
+		}
+		
 footer{
-	clear: both;
-	text-align: center;
-	background-color: #ff3b3f;
-	width: 100%;
-	padding: 80px 0;
-	color: #7f3300;
-}
-a: hover{#ff3b3f;}
+		clear: both;
+		text-align: center;
+		background-color: #ff3b3f;
+		width: 100%;
+		padding: 80px 0;
+		color: #7f3300;
+		}
+a: hover{ 
+   		color:#ff3b3f;
+  		 }
 .container {
-    width: 600px;
-}
+   		 width: 600px;
+		}
 ul{
-  width:300px; 
- margin: 0 auto;
- font-family: 'IM Fell Great Primer', serif;
-
- /* clear:both; */
- /* padding-top:50px; */
-}
-h2{text-align:center
-}
+		 width:300px; 
+		 margin: 0 auto;
+		 font-family: 'IM Fell Great Primer', serif;
+ 			}
+h2{
+		 text-align:center
+			}
 
 li{
-  margin: 0 auto;
-  font-family: 'IM Fell Great Primer', serif;
+		 	margin: 0 auto;
+		  	font-family: 'IM Fell Great Primer', serif;
 }
 .ex1 {
-	clear: both;
-    float: left;
-    width: 33.33%;
-    padding: 10em 0;
+			clear: both;
+			float: left;
+			width: 33.33%;
+			padding: 10em 0;
 	
 }
 
 #bbcolors p {
-    width: 26em;
-    margin: auto;
-	height:600px;
-	
+			width: 26em;
+			margin: auto;
+			height:600px;
 }
-footer a:hover {color:#caebf2;}
+footer a:hover {
+			color:#caebf2;
+			}
 
 #two_column {
-    background-color: #caebf2;
-    border: 1px black solid;
-    padding: 20px;
-	width:100%;
+			background-color: #caebf2;
+			border: 1px black solid;
+			padding: 20px;
+			width:100%;
 }
 
-/*#left {
-    background-color: #efefef;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 50%;
-	height: 600px;
-	
-}
-#left1 {
-    background-color: #efefef;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 50%;
-	height:600px;
-	
-}*/
-.smallmargins{margin: auto;}
-/*#right {
-    background-color: #b9b9b9;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 50%;
-	height:600px;
-}
-#right1 {
-    background-color: #b9b9b9;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 50%;
-	height: 600px;
-}
-*/
+.smallmargins{
+	margin: auto;
+	}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -295,13 +267,6 @@ footer a:hover {color:#caebf2;}
     padding: 14px 16px;
     background-color: inherit;
 }
-.box{
-  height:300px;
-  width:300px;
-  padding:30px;
-  border:30px solid transparent;
-  border-image: url(../images/greenleaves.jpg) 30 30 round;
-}
 
 nav a ul {
 	display:none;
@@ -310,21 +275,54 @@ nav a ul {
 nav a:hover ul {
 	display:block;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 757px) {
     body{
         background-color:lightgreen;
     }
+Nav a:link, nav a:visited{
+		background-color: lightpink;
+		color: #7f3300;
+		padding: 14px 25px;
+		text-align: center; 
+		text-decoration: none;
+		float: NONE;
+		width: 100%;
+		display:block;
+		border: .25em solid black;
+	}
+	#intro {
+
+		font-size:2em;
+		padding:2em 1em 0em 2.5em;
+		background-color: lightblue;
+		height:7em;
+		color:darkblue;
+	
+	}
+	#acolor{
+		width:100%;
+		padding-left:35%;
+		}
+  #bbcolors {width:100%;
+             
+  }
+  #bbcolors p{
+	  height:1em;
+  }
 }
 @media screen and (max-width: 479px){
+	body {
+		font-size: 14px;
+	}
 	.columns {
-    width:98%;
-	margin: 0 auto;
-	/*margin-left: 100px;
-	margin-top: 50px;*/
-	display:inline-block;
-	padding:30px;
-    color: #7f3300;
-	vertical-align:top;
+		width:98%;
+		margin: 0 auto;
+		/*margin-left: 100px;
+		margin-top: 50px;*/
+		display:inline-block;
+		padding:30px;
+		color: #7f3300;
+		vertical-align:top;	
 	}
 	main{
 		display:none;
@@ -332,34 +330,36 @@ nav a:hover ul {
 	#bbcolors p{
 		 width: 0em;
     	 margin: auto;
-	    height:;0em;
+	     height: 0em;
 	
 	}
 	
-		#intro {
-	background-image:none;
-	font-size:2em;
-	padding:2em 1em 0em 2.5em;
-	background-color: lightblue;
-	height:7em;
+	#intro {
+		background-image:none;
+		font-size:2em;
+		padding:2em 1em 0em 2.5em;
+		background-color: lightblue;
+		height:7em;
 	
-}
+	}
 
-Nav a:link, nav a:visited {
-background-color: lightgreen;
-    color: #7f3300;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    float: NONE;
-	width: 100%;
-	display:block;
-	border: .25em solid black;
-}
-#bcolor {display:none;
-}
-#slogan {display:none;
-}
-h1{font-size: 1.5em;
-}
+	Nav a:link, nav a:visited{
+		background-color: lightgreen;
+		color: #7f3300;
+		padding: 14px 25px;
+		text-align: center; 
+		text-decoration: none;
+		float: NONE;
+		width: 100%;
+		display:block;
+		border: .25em solid black;
+	}
+	#bcolor{
+		display:none;
+	}
+	#slogan {
+		display:none;
+	}
+	h1{font-size: 1.5em;
+	}
 }
