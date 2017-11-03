@@ -52,31 +52,40 @@ p {
 	width:100%;
 }
 
-nav{
+nav ul{
 	 text-align:center;
      color:white;
 	 text-decoration:none;
 	 background-color:#1912B2;
 	 overflow: hidden;
+	 list-style-type: none;
+	display:inline;
+}
+
+
+
+nav li a {
+	float:left;
+    display: block;
+    padding: 10px;
+    background-color: #efefef;
+	width:20%;
+	text-align:center;
+	text-decoration:none;
+	
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
-Nav a:link, nav a:visited {
-	background-color: #efefef;
-    color: #7f3300;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    float: left;
-	width: 20%;
-}
+nav li a:hover {
+    background-color:lightgreen;}
 
 nav a:hover, nav a:active {
-    background-color: #caebf2;
+    background-color: #caebf2;;
+}
+
+.dropdown {background-color:purple;
+            position:relative;
+		 
 }
 .dropdown:hover .dropbtn {
     background-color: red;
@@ -84,8 +93,8 @@ nav a:hover, nav a:active {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: purple;
-    min-width: 160px;
+	background-color:green;
+    width:20%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 	}
@@ -98,11 +107,12 @@ nav a:hover, nav a:active {
     display: block;
     text-align: left;
 	background:green;
-
+    width:20%;
 	}
 
-.dropdown-content a:hover {
-    background-color: #ddd;
+.dropdown-content a:hover{
+    background-color:white;
+	width:20%;
 	}
 
 .dropdown:hover .dropdown-content {
@@ -149,11 +159,10 @@ a {
 		float:left;
         background: #b9b9b9;
 		color:#7f3300;
-		width:50%;
-		height:45em;
-		padding-top:15%;
-		padding-left:15%;
-		}
+		width:45%;
+		height:50em;
+		
+			}
 		
 #review{
 		 clear:both;
@@ -167,8 +176,9 @@ a {
 #acolor img{
 	  	  width: 50%;
           margin: 0 auto;
-		  border: 10px solid red;
-			}
+		  border: 10px solid #ff3b3f;
+		  height: 90%;
+		 	}
 		
 #renew{
 		height:600px;
@@ -290,6 +300,8 @@ Nav a:link, nav a:visited{
 		display:block;
 		border: .25em solid black;
 	}
+	
+	
 	#intro {
 
 		font-size:2em;
