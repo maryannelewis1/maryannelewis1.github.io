@@ -377,7 +377,7 @@ Nav a:link, nav a:visited{
 	text-align:center;
 	position: relative;
 	display:block;
-	height:4em;
+	height:3.5em;
 }
 }
 
@@ -416,7 +416,6 @@ Nav a:link, nav a:visited{
 	}
 
 	Nav a:link, nav a:visited{
-		background-color: lightgreen;
 		color: #7f3300;
 		padding: 14px 25px;
 		text-align: center; 
