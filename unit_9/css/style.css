@@ -314,7 +314,24 @@ nav a:hover ul {
 	font-size:2em;
 	height:90vh;
 	padding:10em 0 0 4em;
-	}          
+	}
+#bbcolors{
+    text-align:center; 
+	color: #7f3300;
+	font-size:24px;
+	background: #caebf2;
+	width:50%;
+	height:30em;
+	padding:15%;
+} 
+#acolor{
+		float:left;
+        background: #b9b9b9;
+		color:#7f3300;
+		width:45%;
+		height:50em;
+		
+			}         
   }
 @media screen and (max-width: 757px) {
     body{
@@ -345,7 +362,7 @@ Nav a:link, nav a:visited{
 	#acolor{
 		width:100%;
 		padding-left:35%;
-		padding-topp:20%;
+		padding-top:20%;
 		}
   #bbcolors {width:100%;
              
