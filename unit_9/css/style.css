@@ -341,12 +341,8 @@ nav a:hover ul {
 		 	}      
   }
 @media screen and (max-width: 757px) {
-    body{
-        background-color:lightgreen;
-    }
+    
 Nav a:link, nav a:visited{
-		background-color: lightpink;
-		color: #7f3300;
 		padding: 14px 25px;
 		text-align: center; 
 		text-decoration: none;
