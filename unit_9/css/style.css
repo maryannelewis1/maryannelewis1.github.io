@@ -314,21 +314,22 @@ nav a:hover ul {
 	font-size:2em;
 	height:90vh;
 	padding:10em 0 0 4em;
+	width:100%
 	}
 #bbcolors{
     text-align:center; 
 	color: #7f3300;
 	font-size:24px;
 	background: #caebf2;
-	width:50%;
+	width:100%;
 	height:30em;
 	padding:15%;
 } 
 #acolor{
-		float:left;
+		float:none;
         background: #b9b9b9;
 		color:#7f3300;
-		width:45%;
+		width:100%;
 		height:50em;
 		
 			}         
