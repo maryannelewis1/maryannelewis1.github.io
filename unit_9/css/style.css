@@ -369,7 +369,18 @@ Nav a:link, nav a:visited{
   #bbcolors p{
 	  height:1em;
   }
+  
+  nav li {
+	float:none;
+	background-color: #efefef;
+	width:100%;
+	text-align:center;
+	position: relative;
+	display:inline-block;
 }
+}
+
+
 @media screen and (max-width: 479px){
 	body {
 		font-size: 14px;
