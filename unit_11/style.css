@@ -68,3 +68,7 @@ nav a:hover, nav a:active {
        text-align:left } 
 #example h1{color:purple;
              padding: 15%;}
+#firstbud{width:50%;
+          float:left;}
+#secondbud{width:50%;
+           float:left;} 
