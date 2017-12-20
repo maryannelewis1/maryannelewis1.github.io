@@ -5,6 +5,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 #intro {
 	background:url(images/purple.jpg);
@@ -57,18 +58,41 @@ nav li a:hover {
 nav a:hover, nav a:active {
     background-color: #caebf2;;
 }
-#firstflower{ width: 60%;
-               float:left;
+#firstflower{
+               width: 100%;
                }
-#secondflower{width:40%;
-              float:left;}
+#secondflower{
+              width: 100%;
+              }
 #example{background-color:lightpink;}
 
 #quote{width: 100%;
        text-align:left } 
-#example h1{color:purple;
-             padding: 15%;}
+#example h1{
+             color:purple;
+             padding: 4em 0;
+             max-width: 600px;
+             margin: auto;
+             }
 #firstbud{width:50%;
           float:left;}
 #secondbud{width:50%;
            float:left;} 
+.crop {
+    /* overflow: hidden; */
+    /* height: 28em; */
+}
+
+figure {
+    width: 50%;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+ .clearfix:after {
+ 	display:block;
+ 	clear:both;
+ 	content:"";
+ }
